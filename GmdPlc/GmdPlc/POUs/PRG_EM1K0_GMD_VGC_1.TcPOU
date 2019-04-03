@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
+  <POU Name="PRG_EM1K0_GMD_VGC_1" Id="{3f015ea3-6fd1-43aa-af82-cfe4d77d5913}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM PRG_EM1K0_GMD_VGC_1
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+// VGC Valves
+
+fb_EM1K0_GMD_VGC_1(i_stUSG := , i_stDSG := fb_EM1K0_GMD_GCC_10.IG, i_xDis_DPIlk := FALSE, i_xEPS_OK := TRUE, i_xPMPS_OK := TRUE, i_xExt_OK := TRUE, i_xOverrideMode := xSystemOverrideMode);
+]]></ST>
+    </Implementation>
+    <LineIds Name="PRG_EM1K0_GMD_VGC_1">
+      <LineId Id="6" Count="3" />
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

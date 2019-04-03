@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
+  <GVL Name="GVL_VARIABLES" Id="{f5eb425e-877f-4a98-b4fc-8b7970a753e9}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	xSystemOverrideMode : BOOL; (* Global system override for the prototype section*)
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
