@@ -1,0 +1,483 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <IoConfig>
+    <Pattern>EK1100</Pattern>
+    <ShortName>EK1100</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EK11xx.xml</IoConfigFile>
+    <ProductCode>72100946</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00120000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>18</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>YKY</Physics>
+    <Name_LcId1033>EK1100 EtherCAT Coupler (2A E-Bus)</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EK1100</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EK1100-0000-0018</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EK1110</Pattern>
+    <ShortName>EK1110</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EK11xx.xml</IoConfigFile>
+    <ProductCode>72756306</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00110000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>17</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KY</Physics>
+    <Name_LcId1033>EK1110 EtherCAT extension</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EK1110</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EK1110-0000-0017</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL1004</Pattern>
+    <ShortName>EL1004</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL1xxx.xml</IoConfigFile>
+    <ProductCode>65810514</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00130000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>19</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL1004 4Ch. Dig. Input 24V, 3ms</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL1004</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL1004-0000-0019</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL2794</Pattern>
+    <ShortName>EL2794</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL2xxx.xml</IoConfigFile>
+    <ProductCode>183119954</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00100000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>16</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL2794 4Ch. Dig. Output 24V AC/DC, 2A, short-circuit-proof</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL2794</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL2794-0000-0016</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL9400</Pattern>
+    <ShortName>EL9400</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL9xxx.xml</IoConfigFile>
+    <ProductCode>0</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>0</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>0</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL9400 E-Bus Power Supplier</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL9400</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL9400</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL1008</Pattern>
+    <ShortName>EL1008</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL1xxx.xml</IoConfigFile>
+    <ProductCode>66072658</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00120000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>18</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL1008 8Ch. Dig. Input 24V, 3ms</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL1008</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL1008-0000-0018</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL1088</Pattern>
+    <ShortName>EL1088</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL1xxx.xml</IoConfigFile>
+    <ProductCode>71315538</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00120000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>18</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL1088 8Ch. Dig. Input 24V, 3ms, negative</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL1088</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL1088-0000-0018</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL2004</Pattern>
+    <ShortName>EL2004</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL2xxx.xml</IoConfigFile>
+    <ProductCode>131346514</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00120000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>18</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL2004 4Ch. Dig. Output 24V, 0.5A</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL2004</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL2004-0000-0018</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL2008</Pattern>
+    <ShortName>EL2008</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL2xxx.xml</IoConfigFile>
+    <ProductCode>131608658</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00120000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>18</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL2008 8Ch. Dig. Output 24V, 0.5A</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL2008</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL2008-0000-0018</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL2088</Pattern>
+    <ShortName>EL2088</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL2xxx.xml</IoConfigFile>
+    <ProductCode>136851538</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00120000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>18</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL2088 8Ch. Dig. Output 24V, 0.5A, switching to negative</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL2088</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL2088-0000-0018</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL3064</Pattern>
+    <ShortName>EL3064</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL30xx.xml</IoConfigFile>
+    <ProductCode>200814674</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x140000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>20</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL3064 4Ch. Ana. Input 0-10V</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL3064</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL3064-0000-0020</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL3068</Pattern>
+    <ShortName>EL3068</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL30xx.xml</IoConfigFile>
+    <ProductCode>201076818</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x140000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>20</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL3068 8Ch. Ana. Input 0-10V</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL3068</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL3068-0000-0020</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL3202</Pattern>
+    <ShortName>EL3202</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL32xx.xml</IoConfigFile>
+    <ProductCode>209858642</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00160000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>22</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL3202 2Ch. Ana. Input PT100 (RTD)</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL3202</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL3202-0000-0022</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL4004</Pattern>
+    <ShortName>EL4004</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL4xxx.xml</IoConfigFile>
+    <ProductCode>262418514</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00140000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>20</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL4004 4Ch. Ana. Output 0-10V, 12bit</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL4004</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL4004-0000-0020</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL7041</Pattern>
+    <ShortName>EL7041</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL7xxx.xml</IoConfigFile>
+    <ProductCode>461451346</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00190000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>25</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL7041 1Ch. Stepper motor output stage (50V, 5A)</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL7041</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL7041-0000-0025</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL9070</Pattern>
+    <ShortName>EL9070</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL9xxx.xml</IoConfigFile>
+    <ProductCode>0</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>0</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>0</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL9070 Shield terminal</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL9070</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL9070</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL9184</Pattern>
+    <ShortName>EL9184</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL9xxx.xml</IoConfigFile>
+    <ProductCode>0</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>0</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>0</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL9184 Potential Connection, 8 x 24V, 8 x Ground</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL9184</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL9184</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL9187</Pattern>
+    <ShortName>EL9187</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL9xxx.xml</IoConfigFile>
+    <ProductCode>0</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>0</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>0</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL9187 Potential Connection, 8 x Ground</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL9187</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL9187</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>EL3174</Pattern>
+    <ShortName>EL3174</ShortName>
+    <BusType>EtherCAT</BusType>
+    <IoConfigFile>C:\TwinCAT\3.1\Config\Io\EtherCAT\Beckhoff EL31xx.xml</IoConfigFile>
+    <ProductCode>208023634</ProductCode>
+    <VendorId>2</VendorId>
+    <RevisionString>#x00100000</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>16</RevisionNo>
+    <HiddenRevision>false</HiddenRevision>
+    <Physics>KK</Physics>
+    <Name_LcId1033>EL3174 4Ch. Ana. Input +/-10V Diff., +/-20mA SingleEnded, 16 Bit</Name_LcId1033>
+    <Url_LcId1033>http://www.beckhoff.com/EL3174</Url_LcId1033>
+    <ItemType>5</ItemType>
+    <ItemTypeName>Box</ItemTypeName>
+    <ItemSubType>9099</ItemSubType>
+    <ItemSubTypeName>EL3174-0000-0016</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+  <IoConfig>
+    <Pattern>ETHERCATPROT</Pattern>
+    <ShortName>ETHERCATPROT</ShortName>
+    <BusType>Device</BusType>
+    <IoConfigFile />
+    <ProductCode>0</ProductCode>
+    <VendorId>0</VendorId>
+    <RevisionString>0</RevisionString>
+    <VersionNo>0</VersionNo>
+    <RevisionNo>0</RevisionNo>
+    <HiddenRevision>true</HiddenRevision>
+    <Physics />
+    <Name_LcId1033 />
+    <Url_LcId1033 />
+    <ItemType>2</ItemType>
+    <ItemTypeName>Device</ItemTypeName>
+    <ItemSubType>111</ItemSubType>
+    <ItemSubTypeName>ETHERCATPROT</ItemSubTypeName>
+    <gsdLocation />
+    <gseLocation />
+    <CustomerTerminal>false</CustomerTerminal>
+    <CheckRevisionNo />
+    <XmlContent />
+  </IoConfig>
+</DocumentElement>

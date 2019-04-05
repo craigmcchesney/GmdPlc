@@ -1,0 +1,113 @@
+<Preferences xmlns="http://tempuri.org/FilesOnDiskSettings.xsd">
+  <CommonSettings>
+    <XML_TagName>Tc3XCADInterface_Project</XML_TagName>
+    <FileLabelText>Project</FileLabelText>
+    <FileDescription>unknown file</FileDescription>
+    <FileExtension>x2t</FileExtension>
+    <CurrentFileVersion>1.0</CurrentFileVersion>
+    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</LocalBaseDirectory>
+    <LocalFileName>Tc3XCADInterface.x2t</LocalFileName>
+    <RemoteBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</RemoteBaseDirectory>
+    <RemoteFileName>Tc3XCADInterface.x2t</RemoteFileName>
+    <LocalFileDirty>true</LocalFileDirty>
+    <RemoteFileDirty>false</RemoteFileDirty>
+    <LocalValidated>false</LocalValidated>
+    <RemoteValidated>false</RemoteValidated>
+  </CommonSettings>
+  <CommonSettings>
+    <XML_TagName>TciFile</XML_TagName>
+    <FileLabelText>TwinCAT import file</FileLabelText>
+    <FileDescription> Standard TwinCAT import file.</FileDescription>
+    <FileExtension>tci</FileExtension>
+    <CurrentFileVersion>1.0</CurrentFileVersion>
+    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</LocalBaseDirectory>
+    <LocalFileName>TciFile.tci~</LocalFileName>
+    <BackupFullPath>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\TciFile.tci~_backup</BackupFullPath>
+    <RemoteBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</RemoteBaseDirectory>
+    <RemoteFileName>TwinCATImportFile.tci</RemoteFileName>
+    <LocalFileDirty>false</LocalFileDirty>
+    <RemoteFileDirty>false</RemoteFileDirty>
+    <LocalValidated>false</LocalValidated>
+    <RemoteValidated>false</RemoteValidated>
+  </CommonSettings>
+  <CommonSettings>
+    <XML_TagName>CadFile</XML_TagName>
+    <FileLabelText>CAD export file</FileLabelText>
+    <FileDescription> Standard Beckhoff ECAD export file.</FileDescription>
+    <FileExtension>xml</FileExtension>
+    <CurrentFileVersion>1.0</CurrentFileVersion>
+    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</LocalBaseDirectory>
+    <LocalFileName>CadFile.xml~</LocalFileName>
+    <BackupFullPath>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\CadFile.xml~_backup</BackupFullPath>
+    <RemoteBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\</RemoteBaseDirectory>
+    <RemoteFileName>PLC_XTES_SXR_GMD.xml</RemoteFileName>
+    <LocalFileDirty>false</LocalFileDirty>
+    <RemoteFileDirty>false</RemoteFileDirty>
+    <LocalValidated>false</LocalValidated>
+    <RemoteValidated>false</RemoteValidated>
+  </CommonSettings>
+  <CommonSettings>
+    <XML_TagName>History</XML_TagName>
+    <FileLabelText>History file</FileLabelText>
+    <FileDescription>unknown file</FileDescription>
+    <FileExtension>xml</FileExtension>
+    <CurrentFileVersion>1.0</CurrentFileVersion>
+    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</LocalBaseDirectory>
+    <LocalFileName>TransformationHistory.xml~</LocalFileName>
+    <BackupFullPath>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\TransformationHistory.xml~_backup</BackupFullPath>
+    <RemoteBaseDirectory />
+    <RemoteFileName />
+    <LocalFileDirty>false</LocalFileDirty>
+    <RemoteFileDirty>false</RemoteFileDirty>
+    <LocalValidated>false</LocalValidated>
+    <RemoteValidated>false</RemoteValidated>
+  </CommonSettings>
+  <CommonSettings>
+    <XML_TagName>Rule_file</XML_TagName>
+    <FileLabelText>Rule file</FileLabelText>
+    <FileDescription>unknown file</FileDescription>
+    <FileExtension>rb</FileExtension>
+    <CurrentFileVersion>1.0</CurrentFileVersion>
+    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</LocalBaseDirectory>
+    <LocalFileName>rule.rbs~</LocalFileName>
+    <BackupFullPath>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\rule.rbs~_backup</BackupFullPath>
+    <RemoteBaseDirectory>C:\TwinCAT\Functions\TE1120 TC3 ECAD Interface\Settings\</RemoteBaseDirectory>
+    <RemoteFileName>rule.rbs</RemoteFileName>
+    <LocalFileDirty>false</LocalFileDirty>
+    <RemoteFileDirty>false</RemoteFileDirty>
+    <LocalValidated>false</LocalValidated>
+    <RemoteValidated>false</RemoteValidated>
+  </CommonSettings>
+  <CommonSettings>
+    <XML_TagName>TwinCATProject_File</XML_TagName>
+    <FileLabelText>TwinCAT project</FileLabelText>
+    <FileDescription>Select a VisualStudio solution or a TwinCAT project.</FileDescription>
+    <FileExtension>tsprj</FileExtension>
+    <CurrentFileVersion>1.0</CurrentFileVersion>
+    <LocalFileName>TwinCATprojectFile.tsprj~</LocalFileName>
+    <RemoteBaseDirectory>C:\Users\auto\Documents\Visual Studio 2013\Projects\GmdPlc\</RemoteBaseDirectory>
+    <RemoteFileName>GmdPlc.sln</RemoteFileName>
+    <LocalFileDirty>false</LocalFileDirty>
+    <RemoteFileDirty>false</RemoteFileDirty>
+    <LocalValidated>false</LocalValidated>
+    <RemoteValidated>false</RemoteValidated>
+  </CommonSettings>
+  <FileSpecificInformation>
+    <XML_TagName>Tc3XCADInterface_Project</XML_TagName>
+  </FileSpecificInformation>
+  <FileSpecificInformation>
+    <XML_TagName>TciFile</XML_TagName>
+  </FileSpecificInformation>
+  <FileSpecificInformation>
+    <XML_TagName>CadFile</XML_TagName>
+  </FileSpecificInformation>
+  <FileSpecificInformation>
+    <XML_TagName>History</XML_TagName>
+  </FileSpecificInformation>
+  <FileSpecificInformation>
+    <XML_TagName>Rule_file</XML_TagName>
+  </FileSpecificInformation>
+  <FileSpecificInformation>
+    <XML_TagName>TwinCATProject_File</XML_TagName>
+  </FileSpecificInformation>
+</Preferences>
