@@ -14,11 +14,11 @@ st_EM1K0_GMD_VRC_50_VOL : ST_Volume := (rVolume := 1E3, rPressure := Global_Pres
 st_EM1K0_GMD_VRC_60_VOL : ST_Volume := (rVolume := 1E3, rPressure := Global_Pressure, rVLeak := Global_Leak);
 st_EM1K0_GMD_VRC_70_VOL : ST_Volume := (rVolume := 1E3, rPressure := Global_Pressure, rVLeak := Global_Leak);
 
-// ST_MKS_317
+// ST_MKS_275
 
-st_EM1K0_GMD_GPI_10 : ST_MKS_317 := (q_xGaugeConnected := TRUE);
-st_EM1K0_GMD_GPI_40 : ST_MKS_317 := (q_xGaugeConnected := TRUE);
-st_EM1K0_GMD_GPI_70 : ST_MKS_317 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GPI_10 : ST_MKS_275 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GPI_40 : ST_MKS_275 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GPI_70 : ST_MKS_275 := (q_xGaugeConnected := TRUE);
 
 // FB_MKS_275
 

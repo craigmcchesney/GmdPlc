@@ -48,7 +48,7 @@ fb_EM1K0_GMD_PRT_40(stVolInlet := st_RoughingLine, stPump := st_EM1K0_GMD_PRT_40
 ]]></ST>
     </Implementation>
     <LineIds Name="PRG_GMD">
-      <LineId Id="6" Count="38" />
+      <LineId Id="48" Count="38" />
       <LineId Id="5" Count="0" />
     </LineIds>
   </POU>

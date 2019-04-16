@@ -20,7 +20,7 @@
 			</Format>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000001}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000001}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BIT</Name>
 			<BitSize>1</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -29,7 +29,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000005}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..4] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000005}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..4] OF BIT</Name>
 			<BitSize>5</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -38,7 +38,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000002}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000002}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BIT</Name>
 			<BitSize>2</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -47,7 +47,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000003}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..2] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000003}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..2] OF BIT</Name>
 			<BitSize>3</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -65,7 +65,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000004}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..3] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000004}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..3] OF BIT</Name>
 			<BitSize>4</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -74,7 +74,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000006}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..5] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000006}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..5] OF BIT</Name>
 			<BitSize>6</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -83,7 +83,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-00200000000D}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..12] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-00200000000D}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..12] OF BIT</Name>
 			<BitSize>13</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -92,7 +92,7 @@
 			</ArrayInfo>
 		</DataType>
 		<DataType>
-			<Name GUID="{18071995-0000-0000-0000-002000000007}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..6] OF BIT</Name>
+			<Name GUID="{18071995-0000-0000-0000-002000000007}" IecBaseType="true" BitType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..6] OF BIT</Name>
 			<BitSize>7</BitSize>
 			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
 			<ArrayInfo>
@@ -542,6 +542,260 @@
 				<Instance Id="#x08502040" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2">
 					<Name>GmdSim Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+					<Vars VarGrpType="1">
+						<Name>PlcTask Inputs</Name>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_10.i_xSol</Name>
+							<Comment>
+								<![CDATA[Solenoid to control the valve( either closed or open)]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_20.i_xSol</Name>
+							<Comment>
+								<![CDATA[Solenoid to control the valve( either closed or open)]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_30.i_xSol</Name>
+							<Comment>
+								<![CDATA[Solenoid to control the valve( either closed or open)]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_50.i_xSol</Name>
+							<Comment>
+								<![CDATA[Solenoid to control the valve( either closed or open)]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_60.i_xSol</Name>
+							<Comment>
+								<![CDATA[Solenoid to control the valve( either closed or open)]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_70.i_xSol</Name>
+							<Comment>
+								<![CDATA[Solenoid to control the valve( either closed or open)]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_10.i_xHvOn</Name>
+							<Comment>
+								<![CDATA[High voltage On to turn on ion gauges]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_20.i_xHvOn</Name>
+							<Comment>
+								<![CDATA[High voltage On to turn on ion gauges]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_30.i_xHvOn</Name>
+							<Comment>
+								<![CDATA[High voltage On to turn on ion gauges]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_40.i_xHvOn</Name>
+							<Comment>
+								<![CDATA[High voltage On to turn on ion gauges]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_50.i_xHvOn</Name>
+							<Comment>
+								<![CDATA[High voltage On to turn on ion gauges]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_60.i_xHvOn</Name>
+							<Comment>
+								<![CDATA[High voltage On to turn on ion gauges]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_70.i_xHvOn</Name>
+							<Comment>
+								<![CDATA[High voltage On to turn on ion gauges]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+					</Vars>
+					<Vars VarGrpType="2">
+						<Name>PlcTask Outputs</Name>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GPI_10.q_iRawPress</Name>
+							<Comment>
+								<![CDATA[ The transformed integer from real pressure to an integer encoded signal to be passed to the PLC ]]>
+							</Comment>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GPI_40.q_iRawPress</Name>
+							<Comment>
+								<![CDATA[ The transformed integer from real pressure to an integer encoded signal to be passed to the PLC ]]>
+							</Comment>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GPI_70.q_iRawPress</Name>
+							<Comment>
+								<![CDATA[ The transformed integer from real pressure to an integer encoded signal to be passed to the PLC ]]>
+							</Comment>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_10.q_xOpnLS</Name>
+							<Comment>
+								<![CDATA[readback whether open]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_10.q_xClsLS</Name>
+							<Comment>
+								<![CDATA[readback whether closed]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_20.q_xOpnLS</Name>
+							<Comment>
+								<![CDATA[readback whether open]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_20.q_xClsLS</Name>
+							<Comment>
+								<![CDATA[readback whether closed]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_30.q_xOpnLS</Name>
+							<Comment>
+								<![CDATA[readback whether open]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_30.q_xClsLS</Name>
+							<Comment>
+								<![CDATA[readback whether closed]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_50.q_xOpnLS</Name>
+							<Comment>
+								<![CDATA[readback whether open]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_50.q_xClsLS</Name>
+							<Comment>
+								<![CDATA[readback whether closed]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_60.q_xOpnLS</Name>
+							<Comment>
+								<![CDATA[readback whether open]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_60.q_xClsLS</Name>
+							<Comment>
+								<![CDATA[readback whether closed]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_70.q_xOpnLS</Name>
+							<Comment>
+								<![CDATA[readback whether open]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_VRC_70.q_xClsLS</Name>
+							<Comment>
+								<![CDATA[readback whether closed]]>
+							</Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_10.q_iRawPress</Name>
+							<Comment>
+								<![CDATA[ The transformed integer from real pressure to an integer encoded signal to be passed to the PLC ]]>
+							</Comment>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_20.q_iRawPress</Name>
+							<Comment>
+								<![CDATA[ The transformed integer from real pressure to an integer encoded signal to be passed to the PLC ]]>
+							</Comment>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_30.q_iRawPress</Name>
+							<Comment>
+								<![CDATA[ The transformed integer from real pressure to an integer encoded signal to be passed to the PLC ]]>
+							</Comment>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_40.q_iRawPress</Name>
+							<Comment>
+								<![CDATA[ The transformed integer from real pressure to an integer encoded signal to be passed to the PLC ]]>
+							</Comment>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_50.q_iRawPress</Name>
+							<Comment>
+								<![CDATA[ The transformed integer from real pressure to an integer encoded signal to be passed to the PLC ]]>
+							</Comment>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_60.q_iRawPress</Name>
+							<Comment>
+								<![CDATA[ The transformed integer from real pressure to an integer encoded signal to be passed to the PLC ]]>
+							</Comment>
+							<Type>INT</Type>
+						</Var>
+						<Var>
+							<Name>GVL_GMD.st_EM1K0_GMD_GCC_70.q_iRawPress</Name>
+							<Comment>
+								<![CDATA[ The transformed integer from real pressure to an integer encoded signal to be passed to the PLC ]]>
+							</Comment>
+							<Type>INT</Type>
+						</Var>
+					</Vars>
+					<TaskPouOids>
+						<TaskPouOid Prio="20" OTCID="#x08502041"/>
+					</TaskPouOids>
 				</Instance>
 			</Project>
 		</Plc>
@@ -6053,21 +6307,12 @@ Path function text Row 09]]>
 					<ImageId>1001</ImageId>
 					<EtherCAT EtherCatAddr="4" SlaveType="1" AdsServerAddress="000000000000ea03" PdiType="#x0100" EtherCatAddrFixed="true" CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x04562c52" RevisionNo="#x00110000" PortPhys="19" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EK1110 EtherCAT extension" Desc="EK1110" PortABoxInfo="#x01000006"/>
 				</Box>
-				<Box BoxType="9099" Id="4">
-					<Name>=+-EK1110_02_16</Name>
-					<ImageId>1001</ImageId>
-					<EtherCAT EtherCatAddr="3" SlaveType="1" AdsServerAddress="000000000000ea03" PdiType="#x0100" EtherCatAddrFixed="true" CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x04562c52" RevisionNo="#x00110000" PortPhys="19" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EK1110 EtherCAT extension" Desc="EK1110" PortABoxInfo="#x01000002"/>
-				</Box>
-				<Box BoxType="9099" Id="3">
-					<Name>=+-EK1110_01_16</Name>
-					<ImageId>1001</ImageId>
-					<EtherCAT EtherCatAddr="2" SlaveType="1" AdsServerAddress="000000000000ea03" PdiType="#x0100" EtherCatAddrFixed="true" CycleMBoxPollingTime="0" VendorId="#x00000002" ProductCode="#x04562c52" RevisionNo="#x00110000" PortPhys="19" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EK1110 EtherCAT extension" Desc="EK1110" PortABoxInfo="#x01000002"/>
-				</Box>
 				<EtherCAT/>
 			</Device>
 		</Io>
 	</Project>
 	<Mappings>
+		<MappingInfo Identifier="{00000000-2001-0850-0020-500810000403}" Id="#x02030010"/>
 		<OwnerA Name="TIPC^GmdPlc^GmdPlc Instance">
 			<OwnerB Name="TIID^=+-EK1100_00_00-CPU/EtherCAT1^=+-EL1004_04_03">
 				<Link VarA="PlcTask Inputs^GVL_GMD.fb_EM1K0_GMD_PRT_40.i_xAlarmOK" VarB="Channel 2^Input"/>
