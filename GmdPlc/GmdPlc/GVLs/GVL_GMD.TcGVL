@@ -1,12 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
-  <GVL Name="GVL_GMD" Id="{4f677ac2-7dbe-42d7-aede-f0895d9d97a0}">
+  <GVL Name="GVL_GMD" Id="{e07be9ee-1c30-4de2-9fbb-2a29f1e5894a}">
     <Declaration><![CDATA[VAR_GLOBAL
-
-// PIP_Gamma Pumps
-
-{attribute 'pytmc' := ' pv: fb_PCPM3B_PIP_1 '}
-fb_PCPM3B_PIP_1 : FB_PIP_GAMMA;
 
 // FB_MKS317
 
@@ -16,10 +11,6 @@ fb_EM1K0_GMD_GPI_10 : FB_MKS317;
 fb_EM1K0_GMD_GPI_40 : FB_MKS317;
 {attribute 'pytmc' := ' pv: fb_EM1K0_GMD_GPI_70 '}
 fb_EM1K0_GMD_GPI_70 : FB_MKS317;
-{attribute 'pytmc' := ' pv: fb_IM2K0_XTES_GPI_1 '}
-fb_IM2K0_XTES_GPI_1 : FB_MKS317;
-{attribute 'pytmc' := ' pv: fb_TV1K0_GAS_GPI_1 '}
-fb_TV1K0_GAS_GPI_1 : FB_MKS317;
 
 // FB_PTM_TwisTorr
 
@@ -69,10 +60,6 @@ fb_EM1K0_GMD_GCC_50 : FB_MKS422;
 fb_EM1K0_GMD_GCC_60 : FB_MKS422;
 {attribute 'pytmc' := ' pv: fb_EM1K0_GMD_GCC_70 '}
 fb_EM1K0_GMD_GCC_70 : FB_MKS422;
-{attribute 'pytmc' := ' pv: fb_IM2K0_XTES_GCC_1 '}
-fb_IM2K0_XTES_GCC_1 : FB_MKS422;
-{attribute 'pytmc' := ' pv: fb_TV1K0_GAS_GCC_1 '}
-fb_TV1K0_GAS_GCC_1 : FB_MKS422;
 
 // FB_EbaraEVA
 

@@ -1,23 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
-  <POU Name="PRG_GMD" Id="{7db60d79-1d43-443c-b047-ee270d12fe07}" SpecialFunc="None">
+  <POU Name="PRG_GMD" Id="{febc07a9-f1e9-4dc5-b21e-96967800d0f7}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM PRG_GMD
 VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[
-// PIP_Gamma Pumps
-
-fb_PCPM3B_PIP_1(i_stGauge := fb_IM2K0_XTES_GCC_1.PG);
-
 // FB_MKS317
 
 fb_EM1K0_GMD_GPI_10(PG=>);
 fb_EM1K0_GMD_GPI_40(PG=>);
 fb_EM1K0_GMD_GPI_70(PG=>);
-fb_IM2K0_XTES_GPI_1(PG=>);
-fb_TV1K0_GAS_GPI_1(PG=>);
 
 // FB_PTM_TwisTorr
 
@@ -47,8 +41,6 @@ fb_EM1K0_GMD_GCC_40(PG := fb_EM1K0_GMD_GPI_40.PG);
 fb_EM1K0_GMD_GCC_50(PG := fb_EM1K0_GMD_GPI_70.PG);
 fb_EM1K0_GMD_GCC_60(PG := fb_EM1K0_GMD_GPI_70.PG);
 fb_EM1K0_GMD_GCC_70(PG := fb_EM1K0_GMD_GPI_70.PG);
-fb_IM2K0_XTES_GCC_1(PG := fb_IM2K0_XTES_GPI_1.PG);
-fb_TV1K0_GAS_GCC_1(PG := fb_TV1K0_GAS_GPI_1.PG);
 
 // FB_EbaraEVA
 
@@ -56,7 +48,7 @@ fb_EM1K0_GMD_PRT_40(i_xExtIlkOK := TRUE);
 ]]></ST>
     </Implementation>
     <LineIds Name="PRG_GMD">
-      <LineId Id="6" Count="46" />
+      <LineId Id="6" Count="38" />
       <LineId Id="5" Count="0" />
     </LineIds>
   </POU>

@@ -7,12 +7,10 @@ END_VAR
 
     ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[PRG_EM1K0_GMD_VGC_1();
-PRG_GMD();
-PRG_TV1K0_GAS_VGC_1();]]></ST>
+      <ST><![CDATA[PRG_GMD();
+]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
-      <LineId Id="2" Count="0" />
       <LineId Id="7" Count="1" />
     </LineIds>
   </POU>

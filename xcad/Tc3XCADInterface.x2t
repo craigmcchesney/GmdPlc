@@ -5,9 +5,9 @@
     <FileDescription>unknown file</FileDescription>
     <FileExtension>x2t</FileExtension>
     <CurrentFileVersion>1.0</CurrentFileVersion>
-    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</LocalBaseDirectory>
+    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\</LocalBaseDirectory>
     <LocalFileName>Tc3XCADInterface.x2t</LocalFileName>
-    <RemoteBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</RemoteBaseDirectory>
+    <RemoteBaseDirectory>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\</RemoteBaseDirectory>
     <RemoteFileName>Tc3XCADInterface.x2t</RemoteFileName>
     <LocalFileDirty>true</LocalFileDirty>
     <RemoteFileDirty>false</RemoteFileDirty>
@@ -20,10 +20,10 @@
     <FileDescription> Standard TwinCAT import file.</FileDescription>
     <FileExtension>tci</FileExtension>
     <CurrentFileVersion>1.0</CurrentFileVersion>
-    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</LocalBaseDirectory>
+    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\</LocalBaseDirectory>
     <LocalFileName>TciFile.tci~</LocalFileName>
-    <BackupFullPath>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\TciFile.tci~_backup</BackupFullPath>
-    <RemoteBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</RemoteBaseDirectory>
+    <BackupFullPath>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\TciFile.tci~_backup</BackupFullPath>
+    <RemoteBaseDirectory>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\</RemoteBaseDirectory>
     <RemoteFileName>TwinCATImportFile.tci</RemoteFileName>
     <LocalFileDirty>false</LocalFileDirty>
     <RemoteFileDirty>false</RemoteFileDirty>
@@ -36,10 +36,10 @@
     <FileDescription> Standard Beckhoff ECAD export file.</FileDescription>
     <FileExtension>xml</FileExtension>
     <CurrentFileVersion>1.0</CurrentFileVersion>
-    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</LocalBaseDirectory>
+    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\</LocalBaseDirectory>
     <LocalFileName>CadFile.xml~</LocalFileName>
-    <BackupFullPath>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\CadFile.xml~_backup</BackupFullPath>
-    <RemoteBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\</RemoteBaseDirectory>
+    <BackupFullPath>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\CadFile.xml~_backup</BackupFullPath>
+    <RemoteBaseDirectory>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\</RemoteBaseDirectory>
     <RemoteFileName>PLC_XTES_SXR_GMD.xml</RemoteFileName>
     <LocalFileDirty>false</LocalFileDirty>
     <RemoteFileDirty>false</RemoteFileDirty>
@@ -52,9 +52,9 @@
     <FileDescription>unknown file</FileDescription>
     <FileExtension>xml</FileExtension>
     <CurrentFileVersion>1.0</CurrentFileVersion>
-    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</LocalBaseDirectory>
+    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\</LocalBaseDirectory>
     <LocalFileName>TransformationHistory.xml~</LocalFileName>
-    <BackupFullPath>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\TransformationHistory.xml~_backup</BackupFullPath>
+    <BackupFullPath>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\TransformationHistory.xml~_backup</BackupFullPath>
     <RemoteBaseDirectory />
     <RemoteFileName />
     <LocalFileDirty>false</LocalFileDirty>
@@ -68,9 +68,9 @@
     <FileDescription>unknown file</FileDescription>
     <FileExtension>rb</FileExtension>
     <CurrentFileVersion>1.0</CurrentFileVersion>
-    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\</LocalBaseDirectory>
+    <LocalBaseDirectory>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\</LocalBaseDirectory>
     <LocalFileName>rule.rbs~</LocalFileName>
-    <BackupFullPath>C:\Users\auto\Documents\projects\20190405 gmd xcad import\Tc3XCADInterface\rule.rbs~_backup</BackupFullPath>
+    <BackupFullPath>C:\Users\auto\Documents\projects\20190412 gmd xcad import 2nd try\Tc3XCADInterface\rule.rbs~_backup</BackupFullPath>
     <RemoteBaseDirectory>C:\TwinCAT\Functions\TE1120 TC3 ECAD Interface\Settings\</RemoteBaseDirectory>
     <RemoteFileName>rule.rbs</RemoteFileName>
     <LocalFileDirty>false</LocalFileDirty>
@@ -85,7 +85,7 @@
     <FileExtension>tsprj</FileExtension>
     <CurrentFileVersion>1.0</CurrentFileVersion>
     <LocalFileName>TwinCATprojectFile.tsprj~</LocalFileName>
-    <RemoteBaseDirectory>C:\Users\auto\Documents\Visual Studio 2013\Projects\GmdPlc\</RemoteBaseDirectory>
+    <RemoteBaseDirectory>C:\Users\auto\Documents\git\craigmcc\GmdPlc\</RemoteBaseDirectory>
     <RemoteFileName>GmdPlc.sln</RemoteFileName>
     <LocalFileDirty>false</LocalFileDirty>
     <RemoteFileDirty>false</RemoteFileDirty>

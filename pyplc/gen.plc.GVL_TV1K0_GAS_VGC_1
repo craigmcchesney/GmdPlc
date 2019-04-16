@@ -1,5 +1,0 @@
-
-// VGC Valves
-
-{attribute 'pytmc' := ' pv: fb_TV1K0_GAS_VGC_1 '}
-fb_TV1K0_GAS_VGC_1 : FB_VGC;
