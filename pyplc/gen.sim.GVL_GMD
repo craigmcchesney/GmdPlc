@@ -1,0 +1,86 @@
+
+// ST_Volume
+
+st_GMD : ST_Volume := (rVolume := 1E3, rPressure := Global_Pressure, rVLeak := Global_Leak);
+st_EM1K0_GMD_VRC_10_VOL : ST_Volume := (rVolume := 1E3, rPressure := Global_Pressure, rVLeak := Global_Leak);
+st_RoughingLine : ST_Volume := (rVolume := 1E3, rPressure := Global_Pressure, rVLeak := Global_Leak);
+st_EM1K0_GMD_VRC_20_VOL : ST_Volume := (rVolume := 1E3, rPressure := Global_Pressure, rVLeak := Global_Leak);
+st_EM1K0_GMD_VRC_30_VOL : ST_Volume := (rVolume := 1E3, rPressure := Global_Pressure, rVLeak := Global_Leak);
+st_EM1K0_GMD_VRC_50_VOL : ST_Volume := (rVolume := 1E3, rPressure := Global_Pressure, rVLeak := Global_Leak);
+st_EM1K0_GMD_VRC_60_VOL : ST_Volume := (rVolume := 1E3, rPressure := Global_Pressure, rVLeak := Global_Leak);
+st_EM1K0_GMD_VRC_70_VOL : ST_Volume := (rVolume := 1E3, rPressure := Global_Pressure, rVLeak := Global_Leak);
+
+// ST_MKS_317
+
+st_EM1K0_GMD_GPI_10 : ST_MKS_317 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GPI_40 : ST_MKS_317 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GPI_70 : ST_MKS_317 := (q_xGaugeConnected := TRUE);
+
+// FB_MKS_275
+
+fb_EM1K0_GMD_GPI_10 : FB_MKS_275;
+fb_EM1K0_GMD_GPI_40 : FB_MKS_275;
+fb_EM1K0_GMD_GPI_70 : FB_MKS_275;
+
+// ST_MechPump
+
+st_EM1K0_GMD_PTM_10 : ST_MechPump;
+st_EM1K0_GMD_PTM_20 : ST_MechPump;
+st_EM1K0_GMD_PTM_30 : ST_MechPump;
+st_EM1K0_GMD_PRT_40 : ST_MechPump;
+st_EM1K0_GMD_PTM_40 : ST_MechPump;
+st_EM1K0_GMD_PTM_50 : ST_MechPump;
+st_EM1K0_GMD_PTM_60 : ST_MechPump;
+st_EM1K0_GMD_PTM_70 : ST_MechPump;
+
+// FB_TurboPump
+
+fb_EM1K0_GMD_PTM_10 : FB_TurboPump;
+fb_EM1K0_GMD_PTM_20 : FB_TurboPump;
+fb_EM1K0_GMD_PTM_30 : FB_TurboPump;
+fb_EM1K0_GMD_PTM_40 : FB_TurboPump;
+fb_EM1K0_GMD_PTM_50 : FB_TurboPump;
+fb_EM1K0_GMD_PTM_60 : FB_TurboPump;
+fb_EM1K0_GMD_PTM_70 : FB_TurboPump;
+
+// ST_VacuumValve
+
+st_EM1K0_GMD_VRC_10 : ST_VacuumValve := (q_xClsLS := TRUE, q_xOpnLS := FALSE);
+st_EM1K0_GMD_VRC_20 : ST_VacuumValve := (q_xClsLS := TRUE, q_xOpnLS := FALSE);
+st_EM1K0_GMD_VRC_30 : ST_VacuumValve := (q_xClsLS := TRUE, q_xOpnLS := FALSE);
+st_EM1K0_GMD_VRC_50 : ST_VacuumValve := (q_xClsLS := TRUE, q_xOpnLS := FALSE);
+st_EM1K0_GMD_VRC_60 : ST_VacuumValve := (q_xClsLS := TRUE, q_xOpnLS := FALSE);
+st_EM1K0_GMD_VRC_70 : ST_VacuumValve := (q_xClsLS := TRUE, q_xOpnLS := FALSE);
+
+// FB_VacuumValve
+
+fb_EM1K0_GMD_VRC_10 : FB_VacuumValve;
+fb_EM1K0_GMD_VRC_20 : FB_VacuumValve;
+fb_EM1K0_GMD_VRC_30 : FB_VacuumValve;
+fb_EM1K0_GMD_VRC_50 : FB_VacuumValve;
+fb_EM1K0_GMD_VRC_60 : FB_VacuumValve;
+fb_EM1K0_GMD_VRC_70 : FB_VacuumValve;
+
+// ST_MKS_422
+
+st_EM1K0_GMD_GCC_10 : ST_MKS_422 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GCC_20 : ST_MKS_422 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GCC_30 : ST_MKS_422 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GCC_40 : ST_MKS_422 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GCC_50 : ST_MKS_422 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GCC_60 : ST_MKS_422 := (q_xGaugeConnected := TRUE);
+st_EM1K0_GMD_GCC_70 : ST_MKS_422 := (q_xGaugeConnected := TRUE);
+
+// FB_MKS_422
+
+fb_EM1K0_GMD_GCC_10 : FB_MKS_422;
+fb_EM1K0_GMD_GCC_20 : FB_MKS_422;
+fb_EM1K0_GMD_GCC_30 : FB_MKS_422;
+fb_EM1K0_GMD_GCC_40 : FB_MKS_422;
+fb_EM1K0_GMD_GCC_50 : FB_MKS_422;
+fb_EM1K0_GMD_GCC_60 : FB_MKS_422;
+fb_EM1K0_GMD_GCC_70 : FB_MKS_422;
+
+// FB_RoughPump
+
+fb_EM1K0_GMD_PRT_40 : FB_RoughPump;

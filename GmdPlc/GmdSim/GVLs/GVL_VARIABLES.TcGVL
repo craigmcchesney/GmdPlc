@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
+  <GVL Name="GVL_VARIABLES" Id="{8ee3f923-3431-4a20-98fa-7f8024dc7d77}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	
+	Global_Pressure : REAL;
+	Global_Leak : REAL;
+
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

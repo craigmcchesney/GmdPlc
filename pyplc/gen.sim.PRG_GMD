@@ -1,0 +1,39 @@
+
+// FB_MKS_275
+
+fb_EM1K0_GMD_GPI_10(stVolume := st_GMD, stGauge := st_EM1K0_GMD_GPI_10);
+fb_EM1K0_GMD_GPI_40(stVolume := st_GMD, stGauge := st_EM1K0_GMD_GPI_40);
+fb_EM1K0_GMD_GPI_70(stVolume := st_GMD, stGauge := st_EM1K0_GMD_GPI_70);
+
+// FB_TurboPump
+
+fb_EM1K0_GMD_PTM_10(stVlInlet := st_EM1K0_GMD_VRC_10_VOL, stVlOutlet := st_RoughingLine, stPump := st_EM1K0_GMD_PTM_10);
+fb_EM1K0_GMD_PTM_20(stVlInlet := st_EM1K0_GMD_VRC_20_VOL, stVlOutlet := st_RoughingLine, stPump := st_EM1K0_GMD_PTM_20);
+fb_EM1K0_GMD_PTM_30(stVlInlet := st_EM1K0_GMD_VRC_30_VOL, stVlOutlet := st_RoughingLine, stPump := st_EM1K0_GMD_PTM_30);
+fb_EM1K0_GMD_PTM_40(stVlInlet := st_GMD, stVlOutlet := st_RoughingLine, stPump := st_EM1K0_GMD_PTM_40);
+fb_EM1K0_GMD_PTM_50(stVlInlet := st_EM1K0_GMD_VRC_50_VOL, stVlOutlet := st_RoughingLine, stPump := st_EM1K0_GMD_PTM_50);
+fb_EM1K0_GMD_PTM_60(stVlInlet := st_EM1K0_GMD_VRC_60_VOL, stVlOutlet := st_RoughingLine, stPump := st_EM1K0_GMD_PTM_60);
+fb_EM1K0_GMD_PTM_70(stVlInlet := st_EM1K0_GMD_VRC_70_VOL, stVlOutlet := st_RoughingLine, stPump := st_EM1K0_GMD_PTM_70);
+
+// FB_VacuumValve
+
+fb_EM1K0_GMD_VRC_10(stAVol := st_GMD, stBvol := st_EM1K0_GMD_VRC_10_VOL, stValve := st_EM1K0_GMD_VRC_10);
+fb_EM1K0_GMD_VRC_20(stAVol := st_GMD, stBvol := st_EM1K0_GMD_VRC_20_VOL, stValve := st_EM1K0_GMD_VRC_20);
+fb_EM1K0_GMD_VRC_30(stAVol := st_GMD, stBvol := st_EM1K0_GMD_VRC_30_VOL, stValve := st_EM1K0_GMD_VRC_30);
+fb_EM1K0_GMD_VRC_50(stAVol := st_GMD, stBvol := st_EM1K0_GMD_VRC_50_VOL, stValve := st_EM1K0_GMD_VRC_50);
+fb_EM1K0_GMD_VRC_60(stAVol := st_GMD, stBvol := st_EM1K0_GMD_VRC_60_VOL, stValve := st_EM1K0_GMD_VRC_60);
+fb_EM1K0_GMD_VRC_70(stAVol := st_GMD, stBvol := st_EM1K0_GMD_VRC_70_VOL, stValve := st_EM1K0_GMD_VRC_70);
+
+// FB_MKS_422
+
+fb_EM1K0_GMD_GCC_10(stVolume := st_GMD, stGauge := st_EM1K0_GMD_GCC_10);
+fb_EM1K0_GMD_GCC_20(stVolume := st_GMD, stGauge := st_EM1K0_GMD_GCC_20);
+fb_EM1K0_GMD_GCC_30(stVolume := st_GMD, stGauge := st_EM1K0_GMD_GCC_30);
+fb_EM1K0_GMD_GCC_40(stVolume := st_GMD, stGauge := st_EM1K0_GMD_GCC_40);
+fb_EM1K0_GMD_GCC_50(stVolume := st_GMD, stGauge := st_EM1K0_GMD_GCC_50);
+fb_EM1K0_GMD_GCC_60(stVolume := st_GMD, stGauge := st_EM1K0_GMD_GCC_60);
+fb_EM1K0_GMD_GCC_70(stVolume := st_GMD, stGauge := st_EM1K0_GMD_GCC_70);
+
+// FB_RoughPump
+
+fb_EM1K0_GMD_PRT_40(stVolInlet := st_RoughingLine, stPump := st_EM1K0_GMD_PRT_40);
