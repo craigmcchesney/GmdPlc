@@ -2,9 +2,12 @@
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
   <GVL Name="GVL_VARIABLES" Id="{8ee3f923-3431-4a20-98fa-7f8024dc7d77}">
     <Declaration><![CDATA[VAR_GLOBAL
-	
-	Global_Pressure : REAL;
-	Global_Leak : REAL;
+
+{attribute 'global_init_slot' := '40500'} // make sure variables are initialized before other GVLs
+Global_Leak : REAL := 0;
+Global_Pressure : REAL := 0.0079;
+New_Pressure : REAL := 22.0; //Torr
+Global_OverridePressure : BOOL := FALSE;
 
 END_VAR]]></Declaration>
   </GVL>
