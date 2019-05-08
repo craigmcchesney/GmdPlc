@@ -69,17 +69,17 @@
     </PlaceholderReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="GmdPlc.tmc">
+      <SubType>Content</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <PlaceholderResolution Include="L2SI Vacuum Library">
       <Resolution>L2SI Vacuum Library, * (SLAC)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="LCLS General">
       <Resolution>LCLS General, * (SLAC)</Resolution>
     </PlaceholderResolution>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="GmdPlc.tmc">
-      <SubType>Content</SubType>
-    </None>
   </ItemGroup>
   <ProjectExtensions>
     <PlcProjectOptions>

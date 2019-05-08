@@ -26,6 +26,9 @@
     <Compile Include="POUs\MAIN.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\OverridePressure.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\PRG_DIAGNOSTIC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
@@ -43,6 +46,10 @@
     <Folder Include="POUs" />
   </ItemGroup>
   <ItemGroup>
+    <PlaceholderReference Include="LCLS General">
+      <DefaultResolution>LCLS General, * (SLAC)</DefaultResolution>
+      <Namespace>LCLS_General</Namespace>
+    </PlaceholderReference>
     <PlaceholderReference Include="Tc2_Standard">
       <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
       <Namespace>Tc2_Standard</Namespace>
@@ -65,14 +72,17 @@
     </PlaceholderReference>
   </ItemGroup>
   <ItemGroup>
-    <PlaceholderResolution Include="Vacuum System Simulator Library">
-      <Resolution>Vacuum System Simulator Library, * (SLAC)</Resolution>
-    </PlaceholderResolution>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="GmdSim.tmc">
       <SubType>Content</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PlaceholderResolution Include="LCLS General">
+      <Resolution>LCLS General, * (SLAC)</Resolution>
+    </PlaceholderResolution>
+    <PlaceholderResolution Include="Vacuum System Simulator Library">
+      <Resolution>Vacuum System Simulator Library, * (SLAC)</Resolution>
+    </PlaceholderResolution>
   </ItemGroup>
   <ProjectExtensions>
     <PlcProjectOptions>

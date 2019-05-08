@@ -28,14 +28,14 @@ fb_EM1K0_GMD_GPI_70 : FB_MKS_275;
 
 // ST_MechPump
 
-st_EM1K0_GMD_PTM_10 : ST_MechPump;
-st_EM1K0_GMD_PTM_20 : ST_MechPump;
-st_EM1K0_GMD_PTM_30 : ST_MechPump;
-st_EM1K0_GMD_PRT_40 : ST_MechPump;
-st_EM1K0_GMD_PTM_40 : ST_MechPump;
-st_EM1K0_GMD_PTM_50 : ST_MechPump;
-st_EM1K0_GMD_PTM_60 : ST_MechPump;
-st_EM1K0_GMD_PTM_70 : ST_MechPump;
+st_EM1K0_GMD_PTM_10 : ST_MechPump := (iMaxSpd:=1000, rBasePress:=1E-9, rMaxLoad:=0.95);
+st_EM1K0_GMD_PTM_20 : ST_MechPump := (iMaxSpd:=1000, rBasePress:=1E-9, rMaxLoad:=0.95);
+st_EM1K0_GMD_PTM_30 : ST_MechPump := (iMaxSpd:=1000, rBasePress:=1E-9, rMaxLoad:=0.95);
+st_EM1K0_GMD_PRT_40 : ST_MechPump := (rMRE:=10, rBasePress:=1E-3);
+st_EM1K0_GMD_PTM_40 : ST_MechPump := (iMaxSpd:=1000, rBasePress:=1E-9, rMaxLoad:=0.95);
+st_EM1K0_GMD_PTM_50 : ST_MechPump := (iMaxSpd:=1000, rBasePress:=1E-9, rMaxLoad:=0.95);
+st_EM1K0_GMD_PTM_60 : ST_MechPump := (iMaxSpd:=1000, rBasePress:=1E-9, rMaxLoad:=0.95);
+st_EM1K0_GMD_PTM_70 : ST_MechPump := (iMaxSpd:=1000, rBasePress:=1E-9, rMaxLoad:=0.95);
 
 // FB_TurboPump
 
